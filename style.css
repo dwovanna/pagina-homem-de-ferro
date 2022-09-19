@@ -10,12 +10,7 @@ body{
 
 }
 header{
-    display: flex;
-   
-    
-}
-.usuario{
-    display: flex;
+    display: flex;    
 }
 header > ul{
     display: flex;
@@ -25,17 +20,43 @@ header > ul{
     
 }
 header> ul > li{
-    padding: 20px;
+    padding: 5px;
     list-style: none;
     font-family: 'Poppins';
     font-weight: bold;
+    margin: 15px;
+}header> ul > li:hover{
+    border-bottom: 4px solid #8A2D5E;
+    ;
 }
-
 .img-ironman{
     position: absolute;
     top: 55%;
     left: 60%;
     transform: translate(-40%,-50%);
+}
+
+.quadradinhos{
+    position: absolute;
+    top: 05%;
+    left: 82%;
+}
+.usuario{
+    position: absolute;
+    top: 05%;
+    left: 85%;
+}
+.lupa{
+    position: absolute;
+    top: 05%;
+    left: 79%;
+    font-size: 30px;
+    color: black;
+}
+.lateral{
+    position: absolute;
+    top: 02%;
+    left: 230%; 
 }
 span{
     position: absolute;
@@ -71,6 +92,17 @@ span{
     font-family:  'Poppins', sans-serif;
 
 }
+.next{
+    position: absolute;
+    top: 95%;
+    left: 85%;
+    font-size: 20px;
+}
+.setanext{
+    position: absolute;
+    top: 95.5%;
+    left: 96%;
+}
 .botão{
     position: absolute;
     top: 60%;
@@ -84,7 +116,11 @@ span{
     color: white;
     font-size: 19.71px;
     font-family: 'Poppins', sans-serif;
-
-
-
 }
+.redes{
+    position: absolute;
+    top: 75%;
+    left: 03%;
+}
+
+
